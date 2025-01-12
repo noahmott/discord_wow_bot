@@ -1,0 +1,16 @@
+2025-01-11 18:29:19 DEBUG discord.client: on_ready has successfully been registered as an event
+2025-01-11 18:29:19 DEBUG asyncio: Using proactor: IocpProactor
+2025-01-11 18:29:19 INFO discord.client: logging in using static token
+2025-01-11 18:29:20 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 1d5e6844ef8d4076e3b8f6a3de270d16).
+2025-01-11 18:29:55 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): us.battle.net:443
+2025-01-11 18:29:56 DEBUG urllib3.connectionpool: https://us.battle.net:443 "POST /oauth/token HTTP/1.1" 200 None
+2025-01-11 18:29:56 INFO root: Successfully obtained access token.
+2025-01-11 18:29:56 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): us.api.blizzard.com:443
+2025-01-11 18:29:56 DEBUG urllib3.connectionpool: https://us.api.blizzard.com:443 "GET /profile/wow/character/lightbringer/bathtime?namespace=profile-us&locale=en_US&access_token=USXy15So98Trcbm5c16QrlukOL8WzCAslb HTTP/1.1" 200 None
+2025-01-11 18:29:56 INFO root: Successfully fetched data for character bathtime on realm lightbringer.
+2025-01-11 18:29:56 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): us.api.blizzard.com:443
+2025-01-11 18:29:56 DEBUG urllib3.connectionpool: https://us.api.blizzard.com:443 "GET /profile/wow/character/lightbringer/bathtime/professions?namespace=profile-us&locale=en_US&access_token=USXy15So98Trcbm5c16QrlukOL8WzCAslb HTTP/1.1" 200 None
+2025-01-11 18:29:56 INFO root: Successfully fetched data for character bathtime on realm lightbringer.
+2025-01-11 18:29:56 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): us.api.blizzard.com:443
+2025-01-11 18:29:57 DEBUG urllib3.connectionpool: https://us.api.blizzard.com:443 "GET /profile/wow/character/lightbringer/bathtime/character-media?namespace=profile-us&locale=en_US HTTP/1.1" 200 None
+2025-01-11 18:29:57 INFO root: Successfully fetched media for character bathtime on realm lightbringer.
